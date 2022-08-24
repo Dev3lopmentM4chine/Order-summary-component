@@ -134,6 +134,8 @@ html body{
 .attribution {
     font-size: 1rem; 
     text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 .attribution p a {
     color: hsl(228, 45%, 44%);
