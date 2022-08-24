@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+html body{
+    max-width: 1440px;
+    height: 692px;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    margin: 0 auto;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main{
+    width: 400px;
+    height: 600px;
+    background-color: #f5f7ff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/*imagem*/
+.main .main-box-img img{
+    width: 400px;
+    object-fit: cover;
+}
+
+/*titulo e texto*/
+.main .main-box{
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.main .main-box .box-title{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color:   #1f2e57;
+}
+.main .main-box .box-paragraph{
+    font-weight: 500;
+    color:  #7280a7;
+}
+
+/*plano e preço*/
+.main .main-box-plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 77%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.main .main-box-plan .conteiner{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.main .main-box-plan .conteiner .box-plan-img{
+    overflow: hidden;
+}
+.main .main-box-plan .conteiner .box-plan-img img{
+    object-fit: cover;
+}
+.main .main-box-plan .conteiner .box-plan-paragraph{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+}
+.main .main-box-plan .conteiner .box-plan-paragraph .plan-paragraph{
+    font-weight: 900;
+    color: #1f2e57;
+}
+.main .main-box-plan .conteiner .box-plan-paragraph .plan-value{
+    font-weight: 500;
+    color: #7280a7;
+}
+.main .main-box-plan .plan-change__link{
+    color: #3829e0;
+}
+
+/*botão*/
+.main-box-btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 84%;
+}
+.main-box-btn .btn__blue{
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #3829e0;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 2px 8px 2px 2px  #eeeff5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main-box-btn .btn__blue:hover{
+    transition: 0.5s;
+    background-color: #f0f0f0;
+    color: #7280a7;
+}
+.main-box-btn .btn__cover{
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #7280a7;
+    background-color: #f5f7ff;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 1rem; 
+    text-align: center;
+}
+.attribution p a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
