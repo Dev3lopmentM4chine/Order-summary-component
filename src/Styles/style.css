@@ -90,7 +90,13 @@ html body{
     color: #7280a7;
 }
 .main .main-box-plan .plan-change__link{
-    color: #3829e0;
+    text-decoration: none;
+    color: #7280a7;
+    transition: 0.5s;
+}
+.main .main-box-plan .plan-change__link:hover{
+    color: #1f2e57;
+    transition: 0.5s;
 }
 
 /*botão*/
@@ -114,12 +120,13 @@ html body{
     text-decoration: none;
     box-shadow: 2px 8px 2px 2px  #eeeff5;
     transition: 0.5s;
+    border: 2px solid #3829e0;
     cursor: pointer;
 }
 .main-box-btn .btn__blue:hover{
     transition: 0.5s;
-    background-color: #f0f0f0;
-    color: #7280a7;
+    background-color: #eeeff5;
+    color: #3829e0;
 }
 .main-box-btn .btn__cover{
     border: none;
@@ -128,16 +135,24 @@ html body{
     font-weight: 700;
     color: #7280a7;
     background-color: #f5f7ff;
+    transition: 0.5s;
     cursor: pointer;
 }
-
-.attribution {
-    font-size: 1rem; 
-    text-align: center;
+.main-box-btn .btn__cover:hover{
+    transition: 0.5s;
+    color: #1f2e57;
+}
+.attribution{
     display: flex;
     flex-direction: row;
+    column-gap: 5px;
 }
-.attribution p a {
-    color: hsl(228, 45%, 44%);
+.attribution .attribution-paragraph {
+    font-size: 1rem;
+    color: #1f2e57;
+    font-weight: 700;
+}
+.attribution .attribution-paragraph a {
     text-decoration: none;
+    color: #3829e0;
 }
